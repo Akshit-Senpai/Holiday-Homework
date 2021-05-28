@@ -145,7 +145,6 @@ body .buttons {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  border: solid 1px white;
 }
 
 body .buttons .rows {
@@ -155,7 +154,6 @@ body .buttons .rows {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border: solid 1px white;
 }
 
 body .buttons .rows .link {

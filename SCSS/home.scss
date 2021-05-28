@@ -120,12 +120,10 @@ body{
         height: 60vh;
         @include flex_centering();
         justify-content: space-around;
-        border: solid 1px white;
 
         .rows{
             display: flex;
             justify-content: space-between;
-            border: solid 1px white;
 
             .link{
                 color: white;
