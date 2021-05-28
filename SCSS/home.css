@@ -309,9 +309,9 @@ body .buttons .rows .link .btn span {
             flex-direction: column;
   }
   .buttons .rows .btn {
-    height: 16vw;
-    width: 39vw;
-    border-radius: 8vw;
+    height: 15vw;
+    width: 38vw;
+    border-radius: 7.5vw;
     font-size: 4.4vw;
   }
 }
