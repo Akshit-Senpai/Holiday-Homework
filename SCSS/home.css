@@ -173,7 +173,6 @@ body .buttons .rows .link .btn {
           align-items: center;
   position: relative;
   margin: auto;
-  font-size: 2.4vw;
   font-family: kalam;
   -webkit-box-shadow: 0 0 0 0 rgba(143, 64, 248, 0.6), 0 0 0 0 rgba(39, 200, 255, 0.6);
           box-shadow: 0 0 0 0 rgba(143, 64, 248, 0.6), 0 0 0 0 rgba(39, 200, 255, 0.6);
@@ -253,6 +252,7 @@ body .buttons .rows .link .btn span {
     height: 8vw;
     width: 19.5vw;
     border-radius: 4vw;
+    font-size: 2.4vw;
   }
 }
 
@@ -282,6 +282,37 @@ body .buttons .rows .link .btn span {
     height: 12vw;
     width: 29.25vw;
     border-radius: 6vw;
+    font-size: 4.4vw;
+  }
+}
+
+@media (max-width: 777px) {
+  .svgs {
+    height: 20vh;
+  }
+  .svgs #hhw {
+    width: 80%;
+  }
+  .buttons {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 5vh;
+  }
+  .buttons .rows {
+    height: 80%;
+    width: 40%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .buttons .rows .btn {
+    height: 16vw;
+    width: 39vw;
+    border-radius: 8vw;
+    font-size: 4.4vw;
   }
 }
 

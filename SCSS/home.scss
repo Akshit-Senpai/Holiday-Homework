@@ -135,7 +135,6 @@ body{
                     position: relative;
                     margin: auto;
                     
-                    font-size: 2.4vw;
                     font-family: kalam;
 
                     box-shadow: 0 0 0 0 $purple-shadow, 0 0 0 0 $blue-shadow;
@@ -202,6 +201,7 @@ body{
                 height: 8vw;
                 width: 19.5vw;
                 border-radius: 4vw;
+                font-size: 2.4vw;
             }
         }
     }
@@ -225,6 +225,31 @@ body{
                 height: 12vw;
                 width: 29.25vw;
                 border-radius: 6vw;
+                font-size: 4.4vw;
+            }
+        }
+    }
+}
+
+@media (max-width: 777px){
+    .svgs{
+        height: 20vh;
+        #hhw{
+            width: 80%
+        }
+    }
+    .buttons{
+        flex-direction: row;
+        margin-top: 5vh;
+        .rows{
+            height: 80%;
+            width: 40%;
+            flex-direction: column;
+            .btn{
+                height: 16vw;
+                width: 39vw;
+                border-radius: 8vw;
+                font-size: 4.4vw;
             }
         }
     }
