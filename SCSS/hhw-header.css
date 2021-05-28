@@ -8,24 +8,17 @@
 
 body {
   background-color: #121212;
-  color: white;
+  color: #fff;
 }
 
 body .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  height: 100vh;
   position: relative;
-  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
   background-size: 100% 100%;
+  z-index: -2;
 }
 
 body .header::after {
@@ -36,13 +29,30 @@ body .header::after {
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.4);
-  z-index: 0;
+  z-index: -1;
 }
 
 body .header h1 {
-  font-size: 6em;
+  font-size: 6vw;
   font-family: cookie;
   font-weight: 100;
-  z-index: 1;
+  position: relative;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@media (orientation: landscape) {
+  .header {
+    height: 100vh;
+  }
+}
+
+@media (orientation: portrait) {
+  .header {
+    height: calc(0.350*100vh);
+  }
 }
 /*# sourceMappingURL=hhw-header.css.map */
