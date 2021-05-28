@@ -28,12 +28,11 @@ body{
 
     .container{
         @include flex_centering();
-        flex-direction: column;
 
         .rows{
             display: flex;
-            width: 70%;
             justify-content: space-between;
+            border: solid 1px white;
 
             .link{
                 color: white;
@@ -86,5 +85,64 @@ body{
                 }
             }
         }
+    }
+}
+
+@media (min-width: 1500px){
+    .container{
+        flex-direction: column;
+    }
+    .rows{
+        width: 70%;
+    }
+}
+@media (max-width: 1500px){
+    .container{
+        flex-direction: column;
+    }
+    .rows{
+        width: 75%;
+    }
+}
+@media (max-width: 1400px){
+    .container{
+        flex-direction: column;
+    }
+    .rows{
+        width: 80%;
+    }
+}
+@media (max-width: 1300px){
+    .container{
+        flex-direction: column;
+    }
+    .rows{
+        width: 85%;
+    }
+}
+@media (max-width: 1200px){
+    .container{
+        flex-direction: column;
+    }
+    .rows{
+        width: 90%;
+    }
+}
+@media (max-width: 1130px){
+    .container{
+        flex-direction: column;
+    }
+    .rows{
+        width: 95%;
+    }
+}
+@media (max-width: 1080px){
+    .container{
+        flex-direction: row;
+        
+    }
+    .rows{
+        width: 30%;
+        flex-direction: column;
     }
 }

@@ -24,20 +24,16 @@ body .container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 body .container .rows {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 70%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  border: solid 1px white;
 }
 
 body .container .rows .link {
@@ -104,5 +100,93 @@ body .container .rows .link .btn span {
   font-family: Kalam;
   -webkit-transform: translateY(10%);
           transform: translateY(10%);
+}
+
+@media (min-width: 1500px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .rows {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1500px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .rows {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .rows {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .rows {
+    width: 85%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .rows {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1130px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .rows {
+    width: 95%;
+  }
+}
+
+@media (max-width: 1080px) {
+  .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .rows {
+    width: 30%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=button.css.map */
