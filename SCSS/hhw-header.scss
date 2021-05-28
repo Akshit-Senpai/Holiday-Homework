@@ -21,6 +21,8 @@ body{
         height: 100vh;
         position: relative;
         z-index: -1;
+        background-size: cover;
+        background-repeat :no-repeat;
 
         &::after{
             content: '';
