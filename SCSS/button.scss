@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Cookie");
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+@import url("https://fonts.googleapis.com/css?family=Kalam");
+@import url("https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap");
+
+@mixin flex_centering{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+$blue-shadow: rgba(39, 200, 255, 0.6);
+$purple-shadow: rgba(143, 64, 248, 0.6);
+
+$blue-gradient: #26caf8;
+$green-gradient: #27d86c;
+$purple-gradient: #c625d0;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #101010;
+    padding-top: 15vh;
+
+    .container{
+        @include flex_centering();
+        flex-direction: column;
+
+        .rows{
+            display: flex;
+            width: 70%;
+            justify-content: space-between;
+
+            .link{
+                color: white;
+                text-decoration: none;
+
+                .btn{
+                    @include flex_centering();
+
+                    height: 120px;
+                    width: 300px;
+                    position: relative;
+                    border-radius: 60px;
+                    margin: 50px auto;
+                    
+                    font-size: 2em;
+                    font-family: kalam;
+
+                    box-shadow: 0 0 0 0 $purple-shadow, 0 0 0 0 $blue-shadow;
+                    transform: none;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease, font-size 0.3s ease;
+                    overflow: hidden;
+
+                    &::after{
+                        content: '';
+                        width: 600px;
+                        height: 600px;
+                        position: absolute;
+                        
+                        top: -20%;
+                        z-index: -1;
+
+                        background-image: linear-gradient(225deg, $green-gradient 0%, $blue-gradient 50%, $purple-gradient 100%);
+                        transition: transform 0.7s ease;
+                    }
+
+                    &:hover{
+                        transform: translate(0, -6px);
+                        box-shadow: 10px -10px 25px $purple-shadow, -10px 10px 25px 0 $blue-shadow;
+                        font-size: calc(2em + .5px);
+                    }
+
+                    &:hover::after{
+                        transform: rotate(160deg) translateY(50px);
+                    }
+
+                    span{
+                        font-family: Kalam;
+                        transform: translateY(10%);
+                    }
+                }
+            }
+        }
+    }
+}
