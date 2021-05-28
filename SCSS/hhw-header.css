@@ -26,7 +26,6 @@ body .header {
   position: relative;
   z-index: -1;
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 body .header::after {
