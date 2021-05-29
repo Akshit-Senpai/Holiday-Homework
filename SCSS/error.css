@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
+body .content h1 {
+  color: #fff;
+  font-size: 12.5vw;
+  letter-spacing: .10em;
+  margin: .025em 0;
+  margin-bottom: .25em;
+  -webkit-filter: drop-shadow(5px 5px 7px #00f);
+          filter: drop-shadow(5px 5px 7px #00f);
+  white-space: nowrap;
+}
+
+body .content h1 span {
+  -webkit-animation: spooky 3s alternate infinite ease-in-out;
+          animation: spooky 3s alternate infinite ease-in-out;
+  color: #528cce;
+  display: inline-block;
+}
+
+body .content h2 {
+  color: #fff;
+  margin-bottom: .40em;
+}
+
+body .content p {
+  color: #fff;
+  margin-top: 0;
+}
+
+@-webkit-keyframes spooky {
+  from {
+    -webkit-transform: translatey(0.15em);
+            transform: translatey(0.15em);
+  }
+  to {
+    -webkit-transform: translatey(-0.15em);
+            transform: translatey(-0.15em);
+  }
+}
+
+@keyframes spooky {
+  from {
+    -webkit-transform: translatey(0.15em);
+            transform: translatey(0.15em);
+  }
+  to {
+    -webkit-transform: translatey(-0.15em);
+            transform: translatey(-0.15em);
+  }
+}
+
+@media (max-width: 30rem) {
+  h1 {
+    font-size: 8.5rem;
+  }
+}
+/*# sourceMappingURL=error.css.map */
