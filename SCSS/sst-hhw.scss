@@ -60,7 +60,7 @@ body{
         .img-cont{
             display: flex;
             justify-content: center;
-            padding: 2% 0;
+            padding: 2.3% 0;
             img{
                 width: 90%;
 				border-radius: 15px;
@@ -69,28 +69,49 @@ body{
 
         .solar{
             float: left;
-            margin-left: 5vw;
-            background-image: linear-gradient(110deg, rgb(0, 204, 204), rgb(0, 82, 82));
+            margin-left: 4.5vw;
+            background-image: linear-gradient(200deg, #00cccc, #005252);
         }
         .solar-img{
             float: right;
-            margin-right: 5vw;
-            background-image: linear-gradient(200deg, blueviolet, violet);
+            margin-right: 4.5vw;
+            background-image: linear-gradient(160deg, #00cccc, #003452);
         }
 		.wind{
             float: right;
-            margin-right: 5vw;
+            margin-right: 4.5vw;
             background-image: linear-gradient(210deg, #ff9900, #ff5100);
-			margin-top: 2vw;
+			margin-top: 3vw;
 		}
 		.wind-img{
 			float: left;
-			margin-left: 5vw;
-			margin-top: 2vw;
-			background-image: linear-gradient(210deg, red, rgb(75, 0, 12));
+			margin-left: 4.5vw;
+			margin-top: 3vw;
+			background-image: linear-gradient(210deg, #ff5100, rgb(75, 0, 12));
 		}
-		.tidal{
-			background-image: linear-gradient(210deg, #30cfd0, #330867);
+        .tidal{
+			float: left;
+			margin-left: 4.5vw;
+            background-image: linear-gradient(210deg, #30cfd0, #330867);
+			margin-top: 3vw;
+		}
+		.tidal-img{
+            float: right;
+            margin-right: 4.5vw;
+			background-image: linear-gradient(210deg, #6830d0, #30cfd0);
+			margin-top: 3vw;
+		}
+		.biomass{
+            float: right;
+            margin-right: 4.5vw;
+            background-image: linear-gradient(210deg, blueviolet, violet);
+			margin-top: 3vw;
+		}
+		.biomass-img{
+            float: left;
+            margin-left: 4.5vw;
+			background-image: linear-gradient(210deg, #E278ED, #6f14c5);
+			margin-top: 3vw;
 		}
 	}
 }
