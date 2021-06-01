@@ -1,3 +1,96 @@
-.header{
-    background: url(../Images/solarmill.jpg);
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+
+    .header{
+        background: url(../Images/solarmill.jpg);
+    }
+    .main{
+		display: inline-block;
+
+        .heading{
+            width: calc(100% - 25px);
+            margin: 50px 0;
+            background: linear-gradient(to right, #74D5DD, #74D5DD 25%, transparent 75%);
+            padding-left: 25px;
+            font-size: 3vw;
+            color: #121212;
+        }
+        .txt-cont, .img-cont{
+            font-size: 1.6vw;
+            width: 44%;
+			text-align: justify;
+			font-family: monotype corsiva;
+			border-radius: 15px;
+        }
+		dl{
+			h3::before{
+				font-family: 'FontAwesome';
+				content: '\f101';
+				position: absolute;
+				transform: translate(-2.2vw);
+				margin-bottom: 0.5vw;
+			}
+			dt{
+				font-weight: 900;
+				font-style: italic;
+			}
+			dt::before{
+				font-family: 'FontAwesome';
+				content: '\f105';
+			
+			}
+			dd{
+				margin-left: 1.2vw;
+				margin-bottom: 0.3vw;
+			}
+		}
+		.txt-cont{
+			padding-top: 3vw;
+            padding: 5vw;
+            h2{
+                padding-bottom: 20px;
+                font-size: 3vw;
+            }
+		}
+        .img-cont{
+            display: flex;
+            justify-content: center;
+            padding: 2% 0;
+            img{
+                width: 90%;
+				border-radius: 15px;
+            }
+        }
+
+        .solar{
+            float: left;
+            margin-left: 5vw;
+            background-image: linear-gradient(110deg, rgb(0, 204, 204), rgb(0, 82, 82));
+        }
+        .solar-img{
+            float: right;
+            margin-right: 5vw;
+            background-image: linear-gradient(200deg, blueviolet, violet);
+        }
+		.wind{
+            float: right;
+            margin-right: 5vw;
+            background-image: linear-gradient(210deg, #ff9900, #ff5100);
+			margin-top: 2vw;
+		}
+		.wind-img{
+			float: left;
+			margin-left: 5vw;
+			margin-top: 2vw;
+			background-image: linear-gradient(210deg, red, rgb(75, 0, 12));
+		}
+		.tidal{
+			background-image: linear-gradient(210deg, #30cfd0, #330867);
+		}
+	}
 }

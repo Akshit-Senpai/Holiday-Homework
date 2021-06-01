@@ -192,6 +192,8 @@ body .buttons .rows .link .btn {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   transition: transform 0.3s ease, box-shadow 0.3s ease, -webkit-transform 0.3s ease, -webkit-box-shadow 0.3s ease;
   overflow: hidden;
+  -webkit-animation: btn .5s ease-in-out 7s;
+          animation: btn .5s ease-in-out 7s;
 }
 
 body .buttons .rows .link .btn::after {
@@ -361,6 +363,36 @@ body .footer::-webkit-scrollbar {
   }
   to {
     fill: white;
+  }
+}
+
+@-webkit-keyframes btn {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes btn {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 /*# sourceMappingURL=home.css.map */

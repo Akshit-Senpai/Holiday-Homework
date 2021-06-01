@@ -1,4 +1,112 @@
-.header {
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .header {
   background: url(../Images/solarmill.jpg);
+}
+
+body .main {
+  display: inline-block;
+}
+
+body .main .heading {
+  width: calc(100% - 25px);
+  margin: 50px 0;
+  background: -webkit-gradient(linear, left top, right top, from(#74D5DD), color-stop(25%, #74D5DD), color-stop(75%, transparent));
+  background: linear-gradient(to right, #74D5DD, #74D5DD 25%, transparent 75%);
+  padding-left: 25px;
+  font-size: 3vw;
+  color: #121212;
+}
+
+body .main .txt-cont, body .main .img-cont {
+  font-size: 1.6vw;
+  width: 44%;
+  text-align: justify;
+  font-family: monotype corsiva;
+  border-radius: 15px;
+}
+
+body .main dl h3::before {
+  font-family: 'FontAwesome';
+  content: '\f101';
+  position: absolute;
+  -webkit-transform: translate(-2.2vw);
+          transform: translate(-2.2vw);
+  margin-bottom: 0.5vw;
+}
+
+body .main dl dt {
+  font-weight: 900;
+  font-style: italic;
+}
+
+body .main dl dt::before {
+  font-family: 'FontAwesome';
+  content: '\f105';
+}
+
+body .main dl dd {
+  margin-left: 1.2vw;
+  margin-bottom: 0.3vw;
+}
+
+body .main .txt-cont {
+  padding-top: 3vw;
+  padding: 5vw;
+}
+
+body .main .txt-cont h2 {
+  padding-bottom: 20px;
+  font-size: 3vw;
+}
+
+body .main .img-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2% 0;
+}
+
+body .main .img-cont img {
+  width: 90%;
+  border-radius: 15px;
+}
+
+body .main .solar {
+  float: left;
+  margin-left: 5vw;
+  background-image: linear-gradient(110deg, #00cccc, #005252);
+}
+
+body .main .solar-img {
+  float: right;
+  margin-right: 5vw;
+  background-image: linear-gradient(200deg, blueviolet, violet);
+}
+
+body .main .wind {
+  float: right;
+  margin-right: 5vw;
+  background-image: linear-gradient(210deg, #ff9900, #ff5100);
+  margin-top: 2vw;
+}
+
+body .main .wind-img {
+  float: left;
+  margin-left: 5vw;
+  margin-top: 2vw;
+  background-image: linear-gradient(210deg, red, #4b000c);
+}
+
+body .main .tidal {
+  background-image: linear-gradient(210deg, #30cfd0, #330867);
 }
 /*# sourceMappingURL=sst-hhw.css.map */

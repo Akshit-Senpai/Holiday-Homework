@@ -31,8 +31,10 @@ body{
             letter-spacing: .10em;
             margin: .025em 0;
             margin-bottom: .25em;
-            filter: drop-shadow(5px 5px 7px #00f);
             white-space: nowrap;
+			animation: error 2s ease-in-out;
+
+            
             
             span {
                 animation: spooky 3s alternate infinite ease-in-out;
@@ -69,3 +71,14 @@ body{
         font-size: 8.5rem;
     }
   }
+
+@keyframes error{
+	0%{
+		transform: scale(0);
+		opacity: 0;
+	}
+	100%{
+		transform: scale(1);
+		opacity: 1;
+	}
+}

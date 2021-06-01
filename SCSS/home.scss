@@ -149,6 +149,8 @@ body{
                     transition: transform 0.3s ease, box-shadow 0.3s ease;
                     overflow: hidden;
 
+					animation: btn .5s ease-in-out 7s;
+
                     &::after{
                         content: '';
                         width: 200%;
@@ -200,6 +202,7 @@ body{
         }
     }
 }
+
 
 
 @media (orientation: landscape){
@@ -284,4 +287,15 @@ body{
     to{
         fill: white;
     }
+}
+@keyframes btn{
+	0%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(1.05);
+	}
+	100%{
+		transform: scale(1);
+	}
 }
