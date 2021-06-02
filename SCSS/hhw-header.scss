@@ -1,60 +1,60 @@
-@import url("https://fonts.googleapis.com/css?family=Cookie&effect=neon");
+@import url('https://fonts.googleapis.com/css?family=Cookie&effect=neon');
 
-@mixin flex_centering{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@mixin flex_centering {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-body{
-    background-color: #121212;
-    color: #fff;
+body {
+	background-color: #121212;
+	color: #fff;
 
-    .header{
-        position: relative;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        width: 100%;
-        background-size: 100% 100%;
-        z-index: -2;
+	.header {
+		position: relative;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		width: 100%;
+		background-size: 100% 100%;
+		z-index: -2;
 
-        &::after{
-            content: '';
-            height: 100%;
-            width: 100%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            background-color: rgba(0, 0, 0, 0.4);
-            z-index: -1;
-        }
+		&::after {
+			content: '';
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-color: rgba(0, 0, 0, 0.4);
+			z-index: -1;
+		}
 
-        h1{
-            font-size: 6vw;
-            font-family: cookie;
-            font-weight: 100;
-            position: relative;
-            display: inline-block;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    }
+		h1 {
+			font-size: 6vw;
+			font-family: cookie;
+			font-weight: 100;
+			position: relative;
+			display: inline-block;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	}
 }
 
-@media (orientation: landscape){
-    .header{
-        height: 100vh;
-    }
+@media (orientation: landscape) {
+	.header {
+		height: 100vh;
+	}
 }
-@media (orientation: portrait){
-    .header{
-        height: calc(0.350*100vh);
-    }
+@media (orientation: portrait) {
+	.header {
+		height: calc(0.4 * 100vh);
+	}
 }

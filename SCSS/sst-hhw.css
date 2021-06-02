@@ -13,8 +13,17 @@ body .main {
   display: inline-block;
 }
 
+body .main .q1 {
+  display: flow-root;
+}
+
+body .main .q2 {
+  display: flow-root;
+  margin-bottom: 80px;
+}
+
 body .main .heading {
-  width: calc(100% - 25px);
+  width: 100%;
   margin: 50px 0;
   background: -webkit-gradient(linear, left top, right top, from(#74D5DD), color-stop(25%, #74D5DD), color-stop(75%, transparent));
   background: linear-gradient(to right, #74D5DD, #74D5DD 25%, transparent 75%);
@@ -31,7 +40,16 @@ body .main .txt-cont, body .main .img-cont {
   border-radius: 15px;
 }
 
-body .main dl h3::before {
+body .main .txt-cont {
+  padding: 5vw;
+}
+
+body .main .txt-cont h2 {
+  padding-bottom: 1.3vw;
+  font-size: 3vw;
+}
+
+body .main .txt-cont dl h3::before {
   font-family: 'FontAwesome';
   content: '\f101';
   position: absolute;
@@ -40,29 +58,19 @@ body .main dl h3::before {
   margin-bottom: 0.5vw;
 }
 
-body .main dl dt {
+body .main .txt-cont dl dt {
   font-weight: 900;
   font-style: italic;
 }
 
-body .main dl dt::before {
+body .main .txt-cont dl dt::before {
   font-family: 'FontAwesome';
   content: '\f105';
 }
 
-body .main dl dd {
+body .main .txt-cont dl dd {
   margin-left: 1.2vw;
   margin-bottom: 0.3vw;
-}
-
-body .main .txt-cont {
-  padding-top: 3vw;
-  padding: 5vw;
-}
-
-body .main .txt-cont h2 {
-  padding-bottom: 20px;
-  font-size: 3vw;
 }
 
 body .main .img-cont {
@@ -72,7 +80,7 @@ body .main .img-cont {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 2.3% 0;
+  padding: 2.3vw 0;
 }
 
 body .main .img-cont img {
@@ -125,12 +133,85 @@ body .main .biomass {
   margin-right: 4.5vw;
   background-image: linear-gradient(210deg, blueviolet, violet);
   margin-top: 3vw;
+  padding-bottom: 5.7vw;
 }
 
 body .main .biomass-img {
   float: left;
   margin-left: 4.5vw;
   background-image: linear-gradient(210deg, #E278ED, #6f14c5);
+  margin-top: 3vw;
+}
+
+body .main .carbon {
+  float: right;
+  margin-right: 4.5vw;
+  background-image: linear-gradient(210deg, #ff9900, #ff5100);
+}
+
+body .main .carbon li {
+  list-style-type: none;
+  margin-bottom: 0.5vw;
+}
+
+body .main .carbon li::before {
+  font-family: 'FontAwesome';
+  content: '\f105';
+  position: absolute;
+  -webkit-transform: translate(-1.2vw);
+          transform: translate(-1.2vw);
+}
+
+body .main .carbon-img {
+  float: left;
+  margin-left: 4.5vw;
+  background-image: linear-gradient(210deg, #FF7E01, #ff3100);
+}
+
+body .main .nuclearP {
+  float: left;
+  margin-left: 4.5vw;
+  background-image: linear-gradient(210deg, #30cfd0, #330867);
+  margin-top: 3vw;
+}
+
+body .main .nuclearP-img {
+  float: right;
+  margin-right: 4.5vw;
+  background-image: linear-gradient(150deg, #316E9D, #330867);
+  margin-top: 3vw;
+}
+
+body .main .nuclearF-img {
+  float: left;
+  margin-left: 4.5vw;
+  background-image: -webkit-gradient(linear, right top, left top, from(#00cccc), to(#003d61));
+  background-image: linear-gradient(270deg, #00cccc, #003d61);
+  margin-top: 3vw;
+}
+
+body .main .nuclearF {
+  float: right;
+  margin-right: 4.5vw;
+  background-image: -webkit-gradient(linear, left top, right top, from(#01C5C7), to(#00588b));
+  background-image: linear-gradient(90deg, #01C5C7, #00588b);
+  margin-top: 3vw;
+}
+
+body .main .space {
+  float: left;
+  margin-left: 4.5vw;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(blueviolet), to(violet));
+  background-image: linear-gradient(blueviolet, violet);
+  margin-top: 3vw;
+  padding-bottom: 4.2vw;
+}
+
+body .main .space-img {
+  float: right;
+  margin-right: 4.5vw;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(blueviolet), to(violet));
+  background-image: linear-gradient(180deg, blueviolet, violet);
   margin-top: 3vw;
 }
 /*# sourceMappingURL=sst-hhw.css.map */

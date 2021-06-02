@@ -52,7 +52,7 @@ body .header h1 {
 
 @media (orientation: portrait) {
   .header {
-    height: calc(0.350*100vh);
+    height: calc(0.4 * 100vh);
   }
 }
 /*# sourceMappingURL=hhw-header.css.map */
