@@ -24,16 +24,16 @@ body .main .q2 {
 
 body .main .heading {
   width: 100%;
-  margin: 50px 0;
+  margin: 4vw 0;
   background: -webkit-gradient(linear, left top, right top, from(#74D5DD), color-stop(25%, #74D5DD), color-stop(75%, transparent));
   background: linear-gradient(to right, #74D5DD, #74D5DD 25%, transparent 75%);
-  padding-left: 25px;
+  padding-left: 3vw;
   font-size: 3vw;
   color: #121212;
 }
 
 body .main .head2 {
-  margin-top: 100px;
+  margin-top: 8vw;
 }
 
 body .main .txt-cont, body .main .img-cont {
@@ -104,7 +104,7 @@ body .main .china-graph {
   background-image: linear-gradient(160deg, #00cccc, #003452);
 }
 
-body .main .us {
+body .main .green {
   float: right;
   margin-right: 4.5vw;
   background-image: linear-gradient(210deg, #ff9900, #ff5100);
