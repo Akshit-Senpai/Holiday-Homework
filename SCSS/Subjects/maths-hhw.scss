@@ -6,8 +6,7 @@
 	margin: 0 auto;
 	padding: 40px;
 	padding-top: 7vw;
-	border: solid 2px white;
-	font-family: monotype corsiva;
+	font-family: 'monotype corsiva';
 	.formula {
 		color: rgb(255, 255, 255);
 		img {
@@ -17,7 +16,6 @@
 }
 .MathJax_Display {
 	text-align: left !important;
-	color: cyan;
 }
 
 @media (min-width: 1420px) {
@@ -78,7 +76,7 @@
 }
 @media (max-width: 600px) {
 	body {
-		font-size: 0.4rem;
+		font-size: 0.45rem;
 	}
 	.container {
 		width: 100%;
