@@ -1,124 +1,129 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-body{
-	
-    .header{
-        background: url(../../Images/windmill2.jpg);
-    }
-	
-    .main{
+body {
+	.header {
+		background: url(../../Images/windmill2.jpg);
+	}
+
+	.main {
 		display: inline-block;
-		.q1{
-			display:flow-root;
+		.q1 {
+			display: flow-root;
 		}
-		.q2{
+		.q2 {
 			display: flow-root;
 			margin-bottom: 80px;
 		}
-        .heading{
-            width: 100%;
-            margin: 4vw 0;
-            background: linear-gradient(to right, #74D5DD, #74D5DD 25%, transparent 75%);
-            padding-left: 3vw;
-            font-size: 3vw;
-            color: #121212;
-        }
-		.head2{
+		.heading {
+			width: 100%;
+			margin: 4vw 0;
+			background: linear-gradient(
+				to right,
+				#74d5dd,
+				#74d5dd 25%,
+				transparent 75%
+			);
+			padding-left: 3vw;
+			font-size: 3vw;
+			color: #121212;
+		}
+		.head2 {
 			margin-top: 8vw;
 		}
-        .txt-cont, .img-cont{
-            font-size: 1.6vw;
-            width: 44%;
+		.txt-cont,
+		.img-cont {
+			font-size: 1.6vw;
+			width: 44%;
 			text-align: justify;
 			font-family: monotype corsiva;
 			border-radius: 15px;
 		}
-		.txt-cont{
-            padding: 5vw;
-            h2{
-                padding-bottom: 1.3vw;
-                font-size: 3vw;
-            }
-			dl{
-				h3::before{
+		.txt-cont {
+			padding: 5vw;
+			h2 {
+				padding-bottom: 1.3vw;
+				font-size: 3vw;
+			}
+			dl {
+				h3::before {
 					font-family: 'FontAwesome';
 					content: '\f101';
 					position: absolute;
 					transform: translate(-2.2vw);
 					margin-bottom: 0.5vw;
 				}
-				dt{
+				dt {
 					font-weight: 900;
 					font-style: italic;
 				}
-				dt::before{
+				dt::before {
 					font-family: 'FontAwesome';
 					content: '\f105';
 				}
-				dd{
+				dd {
 					margin-left: 1.2vw;
 					margin-bottom: 0.3vw;
 				}
 			}
 		}
-        .img-cont{
-            display: flex;
-            justify-content: center;
-            padding: 2.3vw 0;
-            img{
-                width: 90%;
+		.img-cont {
+			display: flex;
+			justify-content: center;
+			padding: 2.3vw 0;
+			img {
+				width: 90%;
 				border-radius: 15px;
-            }
-        }
+			}
+		}
 
-        .about{
-            float: left;
-            margin-left: 4.5vw;
-            background-image: linear-gradient(200deg, #00cccc, #005252);
-        }
-        .china-graph{
-            float: right;
-            margin-right: 4.5vw;
-            background-image: linear-gradient(160deg, #00cccc, #003452);
-        }
-		.green{
-            float: right;
-            margin-right: 4.5vw;
-            background-image: linear-gradient(210deg, #ff9900, #ff5100);
+		.about {
+			float: left;
+			margin-left: 4.5vw;
+			background-image: linear-gradient(200deg, #00cccc, #005252);
+		}
+		.china-graph {
+			float: right;
+			margin-right: 4.5vw;
+			background-image: linear-gradient(160deg, #00cccc, #003452);
+		}
+		.green {
+			float: right;
+			margin-right: 4.5vw;
+			background-image: linear-gradient(210deg, #ff9900, #ff5100);
 			margin-top: 3vw;
 		}
-		.us-graph{
+		.us-graph {
 			float: left;
 			margin-left: 4.5vw;
 			margin-top: 3vw;
-			background-image: linear-gradient(210deg, #FF7701, rgb(75, 0, 12));
+			background-image: linear-gradient(210deg, #ff7701, rgb(75, 0, 12));
 		}
-        .brazil{
+		.brazil {
 			float: left;
 			margin-left: 4.5vw;
-            background-image: linear-gradient(210deg, #30cfd0, #330867);
+			background-image: linear-gradient(210deg, #30cfd0, #330867);
 			margin-top: 3vw;
 		}
-		.brazil-graph{
-            float: right;
-            margin-right: 4.5vw;
+		.brazil-graph {
+			float: right;
+			margin-right: 4.5vw;
 			background-image: linear-gradient(210deg, #6830d0, #30cfd0);
 			margin-top: 3vw;
 		}
-		.india{
-            float: right;
-            margin-right: 4.5vw;
-            background-image: linear-gradient(210deg, blueviolet, violet);
+		.india {
+			float: right;
+			margin-right: 4.5vw;
+			background-image: linear-gradient(210deg, blueviolet, violet);
 			margin-top: 3vw;
 		}
-		.india-graph{
-            float: left;
-            margin-left: 4.5vw;
-			background-image: linear-gradient(210deg, #E278ED, #6f14c5);
+		.india-graph {
+			float: left;
+			margin-left: 4.5vw;
+			background-image: linear-gradient(210deg, #e278ed, #6f14c5);
 			margin-top: 3vw;
 		}
 	}

@@ -5,8 +5,17 @@
 .container {
   margin: 0 auto;
   padding: 40px;
-  padding-top: 100px;
+  padding-top: 7vw;
   border: solid 2px white;
+  font-family: monotype corsiva;
+}
+
+.container .formula {
+  color: white;
+}
+
+.container .formula img {
+  width: 100%;
 }
 
 .MathJax_Display {
@@ -16,7 +25,7 @@
 
 @media (min-width: 1420px) {
   body {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .container {
     width: 70%;
@@ -25,7 +34,7 @@
 
 @media (max-width: 1420px) {
   body {
-    font-size: .9rem;
+    font-size: 1.1rem;
   }
   .container {
     width: 70%;
@@ -34,7 +43,7 @@
 
 @media (max-width: 1320px) {
   body {
-    font-size: .9rem;
+    font-size: 1rem;
   }
   .container {
     width: 75%;
@@ -43,25 +52,25 @@
 
 @media (max-width: 1000px) {
   body {
-    font-size: .9rem;
-  }
-  .container {
-    width: 75%;
-  }
-}
-
-@media (max-width: 900px) {
-  body {
-    font-size: .8rem;
+    font-size: 0.9rem;
   }
   .container {
     width: 80%;
   }
 }
 
+@media (max-width: 900px) {
+  body {
+    font-size: 0.8rem;
+  }
+  .container {
+    width: 85%;
+  }
+}
+
 @media (max-width: 800px) {
   body {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
   .container {
     width: 85%;
@@ -70,16 +79,16 @@
 
 @media (max-width: 700px) {
   body {
-    font-size: .6rem;
+    font-size: 0.6rem;
   }
   .container {
-    width: 95%;
+    width: 90%;
   }
 }
 
 @media (max-width: 600px) {
   body {
-    font-size: .5rem;
+    font-size: 0.5rem;
   }
   .container {
     width: 100%;
