@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Kalam', cursive;
+	.header {
+		background: url(../../Images/windmilll.jpg);
+	}
+	.main {
+		display: inline-block;
+		.q1,
+		.q2,
+		.q3 {
+			display: flow-root;
+		}
+		.heading {
+			width: 100%;
+			margin: 4vw 0;
+			background: linear-gradient(
+				to right,
+				#74d5dd,
+				#74d5dd 25%,
+				transparent 75%
+			);
+			padding-left: 3vw;
+			font-size: 3vw;
+			color: #121212;
+		}
+		.head2,
+		.head3 {
+			margin-top: 8vw;
+		}
+		.txt-cont,
+		.img-cont {
+			font-size: 1.6vw;
+			width: 44%;
+			text-align: justify;
+			border-radius: 15px;
+		}
+		.txt-cont {
+			font-family: 'Mukta', sans-serif;
+			font-weight: 100;
+			padding: 5vw;
+			line-height: 2.5vw;
+			section {
+				text-align: right;
+			}
+			h2 {
+				padding-bottom: 1.3vw;
+				font-size: 3vw;
+			}
+			dl {
+				h3::before {
+					font-family: 'FontAwesome';
+					content: '\f101';
+					position: absolute;
+					transform: translate(-2.2vw);
+					margin-bottom: 0.5vw;
+				}
+				dt {
+					font-weight: 900;
+					font-style: italic;
+				}
+				dt::before {
+					font-family: 'FontAwesome';
+					content: '\f105';
+					position: absolute;
+					transform: translate(-1.3vw, 0.3vw);
+				}
+				dd {
+					margin-left: 1.2vw;
+					margin-bottom: 0.3vw;
+				}
+			}
+		}
+		.img-cont {
+			display: flex;
+			justify-content: center;
+			padding: 2.3vw 0;
+			transition: padding 0.25s ease, transform 0.25s ease;
+			img {
+				width: 90%;
+				border-radius: 15px;
+				transition: width 0.25s ease;
+			}
+		}
+
+		.china {
+			float: left;
+			margin-left: 4.5vw;
+			background-image: linear-gradient(200deg, #00cccc, #002929);
+		}
+		.china-graph {
+			float: right;
+			margin-right: 4.5vw;
+			background-image: linear-gradient(160deg, #00cccc, #003452);
+		}
+		.us {
+			float: right;
+			margin-right: 4.5vw;
+			background-image: linear-gradient(210deg, #ff9900, #ff5100);
+			margin-top: 3vw;
+		}
+		.us-graph {
+			float: right;
+			margin-right: 4.5vw;
+			margin-top: 3vw;
+			background-image: linear-gradient(210deg, #ff7701, rgb(75, 0, 12));
+		}
+		.brazil {
+			float: left;
+			margin-left: 4.5vw;
+			background-image: linear-gradient(210deg, #30cfd0, #330867);
+			margin-top: 3vw;
+		}
+		.brazil-graph {
+			float: left;
+			margin-left: 4.5vw;
+			background-image: linear-gradient(210deg, #6830d0, #30cfd0);
+			margin-top: 3vw;
+		}
+		.india {
+			float: right;
+			margin-right: 4.5vw;
+			background-image: linear-gradient(210deg, blueviolet, violet);
+			margin-top: 3vw;
+		}
+
+		.india-graph {
+			float: left;
+			margin-left: 4.5vw;
+			background-image: linear-gradient(210deg, #e278ed, #6f14c5);
+			margin-top: 3vw;
+		}
+
+		.sooraj {
+			float: left;
+			margin-left: 4.5vw;
+			background-image: linear-gradient(200deg, #00cccc, #002929);
+			line-height: 2.7vw;
+			padding: 7vw 5vw;
+			h2 {
+				margin-bottom: 0.4vw;
+			}
+			section {
+				margin-top: 1vw;
+			}
+		}
+		.sooraj-graph {
+			float: right;
+			margin-right: 4.5vw;
+			background-image: linear-gradient(160deg, #00cccc, #003452);
+		}
+		.sooraj2 {
+			float: right;
+			margin-right: 4.5vw;
+			margin-top: 3vw;
+			background-image: linear-gradient(160deg, #00cccc, #002929);
+			line-height: 2.4vw;
+		}
+
+		.hawa {
+			float: left;
+			margin-left: 4.5vw;
+			background-image: linear-gradient(210deg, #6f14c5, #e278ed);
+			margin-top: 3vw;
+			line-height: 2.7vw;
+		}
+
+		.hawa-graph {
+			float: right;
+			margin-right: 4.5vw;
+			background-image: linear-gradient(300deg, #e278ed, #6f14c5);
+			margin-top: 3vw;
+		}
+		.hawa2 {
+			float: right;
+			margin-right: 4.5vw;
+			margin-top: 3vw;
+			background-image: linear-gradient(300deg, #e278ed, #6f14c5);
+		}
+		.nature {
+			float: left;
+			margin-left: 4.5vw;
+			background-image: linear-gradient(200deg, #ff9900, #ff5100);
+			margin-top: 3vw;
+
+			line-height: 2.7vw;
+			padding: 7vw 5vw;
+			h2 {
+				margin-bottom: 0.5vw;
+			}
+			section {
+				margin-top: 2vw;
+			}
+		}
+		.nature-graph {
+			float: right;
+			margin-right: 4.5vw;
+			background-image: linear-gradient(160deg, #ff9900, #ff5100);
+			margin-top: 3vw;
+		}
+		.nature2 {
+			float: right;
+			margin-right: 4.5vw;
+			margin-top: 3vw;
+			background-image: linear-gradient(160deg, #ff9900, #ff5100);
+			line-height: 2.4vw;
+		}
+		.intro {
+			float: left;
+			margin-left: 4.5vw;
+			background-image: linear-gradient(200deg, #00cccc, #003452);
+		}
+		.intro-graph {
+			float: right;
+			margin-right: 4.5vw;
+			background-image: linear-gradient(160deg, #00cccc, #003452);
+		}
+		.intro2 {
+			float: right;
+			margin-right: 4.5vw;
+			background-image: linear-gradient(200deg, #00cccc, #003452);
+			margin-top: 3vw;
+
+			line-height: 2.7vw;
+			dt {
+				font-weight: 100;
+				font-style: none;
+			}
+		}
+	}
+}

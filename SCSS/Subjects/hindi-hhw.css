@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css?family=Kalam");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kalam', cursive;
+}
+
+body .header {
+  background: url(../../Images/windmilll.jpg);
+}
+
+body .main {
+  display: inline-block;
+}
+
+body .main .q1,
+body .main .q2,
+body .main .q3 {
+  display: flow-root;
+}
+
+body .main .heading {
+  width: 100%;
+  margin: 4vw 0;
+  background: -webkit-gradient(linear, left top, right top, from(#74d5dd), color-stop(25%, #74d5dd), color-stop(75%, transparent));
+  background: linear-gradient(to right, #74d5dd, #74d5dd 25%, transparent 75%);
+  padding-left: 3vw;
+  font-size: 3vw;
+  color: #121212;
+}
+
+body .main .head2,
+body .main .head3 {
+  margin-top: 8vw;
+}
+
+body .main .txt-cont,
+body .main .img-cont {
+  font-size: 1.6vw;
+  width: 44%;
+  text-align: justify;
+  border-radius: 15px;
+}
+
+body .main .txt-cont {
+  font-family: 'Mukta', sans-serif;
+  font-weight: 100;
+  padding: 5vw;
+  line-height: 2.5vw;
+}
+
+body .main .txt-cont section {
+  text-align: right;
+}
+
+body .main .txt-cont h2 {
+  padding-bottom: 1.3vw;
+  font-size: 3vw;
+}
+
+body .main .txt-cont dl h3::before {
+  font-family: 'FontAwesome';
+  content: '\f101';
+  position: absolute;
+  -webkit-transform: translate(-2.2vw);
+          transform: translate(-2.2vw);
+  margin-bottom: 0.5vw;
+}
+
+body .main .txt-cont dl dt {
+  font-weight: 900;
+  font-style: italic;
+}
+
+body .main .txt-cont dl dt::before {
+  font-family: 'FontAwesome';
+  content: '\f105';
+  position: absolute;
+  -webkit-transform: translate(-1.3vw, 0.3vw);
+          transform: translate(-1.3vw, 0.3vw);
+}
+
+body .main .txt-cont dl dd {
+  margin-left: 1.2vw;
+  margin-bottom: 0.3vw;
+}
+
+body .main .img-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2.3vw 0;
+  -webkit-transition: padding 0.25s ease, -webkit-transform 0.25s ease;
+  transition: padding 0.25s ease, -webkit-transform 0.25s ease;
+  transition: padding 0.25s ease, transform 0.25s ease;
+  transition: padding 0.25s ease, transform 0.25s ease, -webkit-transform 0.25s ease;
+}
+
+body .main .img-cont img {
+  width: 90%;
+  border-radius: 15px;
+  -webkit-transition: width 0.25s ease;
+  transition: width 0.25s ease;
+}
+
+body .main .china {
+  float: left;
+  margin-left: 4.5vw;
+  background-image: linear-gradient(200deg, #00cccc, #002929);
+}
+
+body .main .china-graph {
+  float: right;
+  margin-right: 4.5vw;
+  background-image: linear-gradient(160deg, #00cccc, #003452);
+}
+
+body .main .us {
+  float: right;
+  margin-right: 4.5vw;
+  background-image: linear-gradient(210deg, #ff9900, #ff5100);
+  margin-top: 3vw;
+}
+
+body .main .us-graph {
+  float: right;
+  margin-right: 4.5vw;
+  margin-top: 3vw;
+  background-image: linear-gradient(210deg, #ff7701, #4b000c);
+}
+
+body .main .brazil {
+  float: left;
+  margin-left: 4.5vw;
+  background-image: linear-gradient(210deg, #30cfd0, #330867);
+  margin-top: 3vw;
+}
+
+body .main .brazil-graph {
+  float: left;
+  margin-left: 4.5vw;
+  background-image: linear-gradient(210deg, #6830d0, #30cfd0);
+  margin-top: 3vw;
+}
+
+body .main .india {
+  float: right;
+  margin-right: 4.5vw;
+  background-image: linear-gradient(210deg, blueviolet, violet);
+  margin-top: 3vw;
+}
+
+body .main .india-graph {
+  float: left;
+  margin-left: 4.5vw;
+  background-image: linear-gradient(210deg, #e278ed, #6f14c5);
+  margin-top: 3vw;
+}
+
+body .main .sooraj {
+  float: left;
+  margin-left: 4.5vw;
+  background-image: linear-gradient(200deg, #00cccc, #002929);
+  line-height: 2.7vw;
+  padding: 7vw 5vw;
+}
+
+body .main .sooraj h2 {
+  margin-bottom: 0.4vw;
+}
+
+body .main .sooraj section {
+  margin-top: 1vw;
+}
+
+body .main .sooraj-graph {
+  float: right;
+  margin-right: 4.5vw;
+  background-image: linear-gradient(160deg, #00cccc, #003452);
+}
+
+body .main .sooraj2 {
+  float: right;
+  margin-right: 4.5vw;
+  margin-top: 3vw;
+  background-image: linear-gradient(160deg, #00cccc, #002929);
+  line-height: 2.4vw;
+}
+
+body .main .hawa {
+  float: left;
+  margin-left: 4.5vw;
+  background-image: linear-gradient(210deg, #6f14c5, #e278ed);
+  margin-top: 3vw;
+  line-height: 2.7vw;
+}
+
+body .main .hawa-graph {
+  float: right;
+  margin-right: 4.5vw;
+  background-image: linear-gradient(300deg, #e278ed, #6f14c5);
+  margin-top: 3vw;
+}
+
+body .main .hawa2 {
+  float: right;
+  margin-right: 4.5vw;
+  margin-top: 3vw;
+  background-image: linear-gradient(300deg, #e278ed, #6f14c5);
+}
+
+body .main .nature {
+  float: left;
+  margin-left: 4.5vw;
+  background-image: linear-gradient(200deg, #ff9900, #ff5100);
+  margin-top: 3vw;
+  line-height: 2.7vw;
+  padding: 7vw 5vw;
+}
+
+body .main .nature h2 {
+  margin-bottom: 0.5vw;
+}
+
+body .main .nature section {
+  margin-top: 2vw;
+}
+
+body .main .nature-graph {
+  float: right;
+  margin-right: 4.5vw;
+  background-image: linear-gradient(160deg, #ff9900, #ff5100);
+  margin-top: 3vw;
+}
+
+body .main .nature2 {
+  float: right;
+  margin-right: 4.5vw;
+  margin-top: 3vw;
+  background-image: linear-gradient(160deg, #ff9900, #ff5100);
+  line-height: 2.4vw;
+}
+
+body .main .intro {
+  float: left;
+  margin-left: 4.5vw;
+  background-image: linear-gradient(200deg, #00cccc, #003452);
+}
+
+body .main .intro-graph {
+  float: right;
+  margin-right: 4.5vw;
+  background-image: linear-gradient(160deg, #00cccc, #003452);
+}
+
+body .main .intro2 {
+  float: right;
+  margin-right: 4.5vw;
+  background-image: linear-gradient(200deg, #00cccc, #003452);
+  margin-top: 3vw;
+  line-height: 2.7vw;
+}
+
+body .main .intro2 dt {
+  font-weight: 100;
+  font-style: none;
+}
+/*# sourceMappingURL=hindi-hhw.css.map */
