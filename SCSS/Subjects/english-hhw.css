@@ -15,8 +15,8 @@ body .main {
 
 body .main .q1,
 body .main .q2,
-body .main .part1,
-body .main .part2 {
+body .main .q3,
+body .main .q4 {
   display: flow-root;
 }
 
@@ -30,7 +30,9 @@ body .main .heading {
   color: #121212;
 }
 
-body .main .head2 {
+body .main .head2,
+body .main .head3,
+body .main .head4 {
   margin-top: 8vw;
 }
 
@@ -90,21 +92,21 @@ body .main .img-cont {
   transition: padding 0.25s ease, transform 0.25s ease, -webkit-transform 0.25s ease;
 }
 
-body .main .img-cont:hover {
-  padding: 1.1vw 0;
-  -webkit-transform: scale(1.04, 1.04);
-          transform: scale(1.04, 1.04);
-}
-
-body .main .img-cont:hover img {
-  width: 100%;
-}
-
 body .main .img-cont img {
   width: 90%;
   border-radius: 15px;
   -webkit-transition: width 0.25s ease;
   transition: width 0.25s ease;
+}
+
+body .main .graph:hover {
+  padding: 1.1vw 0;
+  -webkit-transform: scale(1.04, 1.04);
+          transform: scale(1.04, 1.04);
+}
+
+body .main .graph:hover img {
+  width: 100%;
 }
 
 body .main .china {
@@ -179,4 +181,4 @@ body .main .conc-graph {
   margin-right: 4.5vw;
   background-image: radial-gradient(at top left, #00c8ff, #006464);
 }
-/*# sourceMappingURL=science-hhw.css.map */
+/*# sourceMappingURL=english-hhw.css.map */
