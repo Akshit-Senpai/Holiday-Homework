@@ -67,8 +67,11 @@ body .main .txt-cont dl dt {
 }
 
 body .main .txt-cont dl dt::before {
+  position: absolute;
   font-family: 'FontAwesome';
   content: '\f105';
+  -webkit-transform: translate(-1vw);
+          transform: translate(-1vw);
 }
 
 body .main .txt-cont dl dd {
@@ -90,21 +93,21 @@ body .main .img-cont {
   transition: padding 0.25s ease, transform 0.25s ease, -webkit-transform 0.25s ease;
 }
 
-body .main .img-cont:hover {
-  padding: 1.1vw 0;
-  -webkit-transform: scale(1.04, 1.04);
-          transform: scale(1.04, 1.04);
-}
-
-body .main .img-cont:hover img {
-  width: 100%;
-}
-
 body .main .img-cont img {
   width: 90%;
   border-radius: 15px;
   -webkit-transition: width 0.25s ease;
   transition: width 0.25s ease;
+}
+
+body .main .graph:hover {
+  padding: 1.1vw 0;
+  -webkit-transform: scale(1.04, 1.04);
+          transform: scale(1.04, 1.04);
+}
+
+body .main .graph:hover img {
+  width: 100%;
 }
 
 body .main .china {
@@ -178,5 +181,36 @@ body .main .conc-graph {
   float: right;
   margin-right: 4.5vw;
   background-image: radial-gradient(at top left, #00c8ff, #006464);
+}
+
+body .main .nuclearP {
+  float: left;
+  margin-left: 4.5vw;
+  background-image: linear-gradient(210deg, #ff9900, #ff5100);
+  margin-top: 3vw;
+}
+
+body .main .nuclearP-img {
+  float: right;
+  margin-right: 4.5vw;
+  background-image: linear-gradient(150deg, #ff5100, #ff9900);
+  margin-top: 3vw;
+}
+
+body .main .nuclearF-img {
+  float: left;
+  margin-left: 4.5vw;
+  background-image: -webkit-gradient(linear, left top, right top, from(#00cccc), to(#003d61));
+  background-image: linear-gradient(90deg, #00cccc, #003d61);
+  margin-top: 3vw;
+}
+
+body .main .nuclearF {
+  float: right;
+  margin-right: 4.5vw;
+  background-image: -webkit-gradient(linear, left top, right top, from(#003d61), to(#00cccc));
+  background-image: linear-gradient(90deg, #003d61, #00cccc);
+  margin-top: 3vw;
+  line-height: 1.9276vw;
 }
 /*# sourceMappingURL=science-hhw.css.map */

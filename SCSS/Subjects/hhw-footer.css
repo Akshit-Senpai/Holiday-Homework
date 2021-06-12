@@ -10,5 +10,47 @@ body .footer {
   height: 7vw;
   background-color: indigo;
   margin-top: 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.6vw;
+  font-family: monotype corsiva;
+}
+
+body .footer img {
+  margin-left: 2vw;
+  height: 70%;
+}
+
+body .footer .credit {
+  margin-left: 3vw;
+}
+
+body .footer .webdev {
+  position: absolute;
+  right: 37vw;
+  text-align: justify;
+}
+
+body .footer .contr {
+  position: absolute;
+  right: 2vw;
+}
+
+body .footer .contr:before {
+  content: '';
+  position: absolute;
+  width: 0.1vw;
+  height: 100%;
+  -webkit-transform: translate(-2vw);
+          transform: translate(-2vw);
+  background-color: #cccccc;
+}
+
+body .footer span {
+  margin-left: 7.8vw;
 }
 /*# sourceMappingURL=hhw-footer.css.map */

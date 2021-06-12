@@ -59,8 +59,10 @@ body {
 					font-style: italic;
 				}
 				dt::before {
+					position: absolute;
 					font-family: 'FontAwesome';
 					content: '\f105';
+					transform: translate(-1vw);
 				}
 				dd {
 					margin-left: 1.2vw;
@@ -73,17 +75,18 @@ body {
 			justify-content: center;
 			padding: 2.3vw 0;
 			transition: padding 0.25s ease, transform 0.25s ease;
-			&:hover {
-				padding: 1.1vw 0;
-				transform: scale(1.04, 1.04);
-				img {
-					width: 100%;
-				}
-			}
 			img {
 				width: 90%;
 				border-radius: 15px;
 				transition: width 0.25s ease;
+			}
+		}
+
+		.graph:hover {
+			padding: 1.1vw 0;
+			transform: scale(1.04, 1.04);
+			img {
+				width: 100%;
 			}
 		}
 
@@ -107,7 +110,7 @@ body {
 			float: left;
 			margin-left: 4.5vw;
 			margin-top: 3vw;
-			background-image: linear-gradient(210deg, #ff7701, rgb(75, 0, 12));
+			background-image: linear-gradient(210deg, #ff7701, #4b000c);
 		}
 		.brazil {
 			float: left;
@@ -156,6 +159,32 @@ body {
 				rgb(0, 200, 255),
 				rgb(0, 100, 100)
 			);
+		}
+
+		.nuclearP {
+			float: left;
+			margin-left: 4.5vw;
+			background-image: linear-gradient(210deg, #ff9900, #ff5100);
+			margin-top: 3vw;
+		}
+		.nuclearP-img {
+			float: right;
+			margin-right: 4.5vw;
+			background-image: linear-gradient(150deg, #ff5100, #ff9900);
+			margin-top: 3vw;
+		}
+		.nuclearF-img {
+			float: left;
+			margin-left: 4.5vw;
+			background-image: linear-gradient(90deg, #00cccc, #003d61);
+			margin-top: 3vw;
+		}
+		.nuclearF {
+			float: right;
+			margin-right: 4.5vw;
+			background-image: linear-gradient(90deg, #003d61, #00cccc);
+			margin-top: 3vw;
+			line-height: 1.9276vw;
 		}
 	}
 }
