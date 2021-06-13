@@ -24,6 +24,9 @@ body {
 			position: relative;
 			transform: translate(190%);
 			right: 0;
+			@media (hover: none) and (pointer: coarse) {
+				display: none;
+			}
 		}
 		.contr {
 			position: absolute;
@@ -31,7 +34,7 @@ body {
 			&:before {
 				content: '';
 				position: absolute;
-				width: 0.1vw;
+				width: 0.05vw;
 				height: 100%;
 				transform: translate(-2vw);
 				background-color: #cccccc;

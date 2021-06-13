@@ -36,6 +36,12 @@ body .footer .webdev {
   right: 0;
 }
 
+@media (hover: none) and (pointer: coarse) {
+  body .footer .webdev {
+    display: none;
+  }
+}
+
 body .footer .contr {
   position: absolute;
   right: 2vw;
@@ -44,7 +50,7 @@ body .footer .contr {
 body .footer .contr:before {
   content: '';
   position: absolute;
-  width: 0.1vw;
+  width: 0.05vw;
   height: 100%;
   -webkit-transform: translate(-2vw);
           transform: translate(-2vw);
