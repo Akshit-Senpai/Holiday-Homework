@@ -71,6 +71,9 @@ body .main .txt-cont dl dt {
 body .main .txt-cont dl dt::before {
   font-family: 'FontAwesome';
   content: '\f105';
+  position: absolute;
+  -webkit-transform: translate(-1vw);
+          transform: translate(-1vw);
 }
 
 body .main .txt-cont dl dd {
@@ -112,35 +115,35 @@ body .main .green {
   margin-top: 3vw;
 }
 
-body .main .us-graph {
+body .main .green-img {
   float: left;
   margin-left: 4.5vw;
   margin-top: 3vw;
   background-image: linear-gradient(210deg, #ff7701, #4b000c);
 }
 
-body .main .brazil {
+body .main .ict-energy {
   float: left;
   margin-left: 4.5vw;
   background-image: linear-gradient(210deg, #30cfd0, #330867);
   margin-top: 3vw;
 }
 
-body .main .brazil-graph {
+body .main .ict-energy-img {
   float: right;
   margin-right: 4.5vw;
   background-image: linear-gradient(210deg, #6830d0, #30cfd0);
   margin-top: 3vw;
 }
 
-body .main .india {
+body .main .energy-eff {
   float: right;
   margin-right: 4.5vw;
   background-image: linear-gradient(210deg, blueviolet, violet);
   margin-top: 3vw;
 }
 
-body .main .india-graph {
+body .main .energy-eff-img {
   float: left;
   margin-left: 4.5vw;
   background-image: linear-gradient(210deg, #e278ed, #6f14c5);

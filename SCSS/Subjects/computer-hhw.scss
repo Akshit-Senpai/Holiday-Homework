@@ -63,6 +63,8 @@ body {
 				dt::before {
 					font-family: 'FontAwesome';
 					content: '\f105';
+					position: absolute;
+					transform: translate(-1vw);
 				}
 				dd {
 					margin-left: 1.2vw;
@@ -96,31 +98,31 @@ body {
 			background-image: linear-gradient(210deg, #ff9900, #ff5100);
 			margin-top: 3vw;
 		}
-		.us-graph {
+		.green-img {
 			float: left;
 			margin-left: 4.5vw;
 			margin-top: 3vw;
 			background-image: linear-gradient(210deg, #ff7701, rgb(75, 0, 12));
 		}
-		.brazil {
+		.ict-energy {
 			float: left;
 			margin-left: 4.5vw;
 			background-image: linear-gradient(210deg, #30cfd0, #330867);
 			margin-top: 3vw;
 		}
-		.brazil-graph {
+		.ict-energy-img {
 			float: right;
 			margin-right: 4.5vw;
 			background-image: linear-gradient(210deg, #6830d0, #30cfd0);
 			margin-top: 3vw;
 		}
-		.india {
+		.energy-eff {
 			float: right;
 			margin-right: 4.5vw;
 			background-image: linear-gradient(210deg, blueviolet, violet);
 			margin-top: 3vw;
 		}
-		.india-graph {
+		.energy-eff-img {
 			float: left;
 			margin-left: 4.5vw;
 			background-image: linear-gradient(210deg, #e278ed, #6f14c5);
