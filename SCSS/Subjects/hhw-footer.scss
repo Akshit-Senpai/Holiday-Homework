@@ -21,9 +21,9 @@ body {
 			margin-left: 3vw;
 		}
 		.webdev {
-			position: absolute;
-			right: 37vw;
-			text-align: justify;
+			position: relative;
+			transform: translate(190%);
+			right: 0;
 		}
 		.contr {
 			position: absolute;

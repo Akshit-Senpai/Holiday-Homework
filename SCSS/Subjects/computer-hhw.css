@@ -99,7 +99,7 @@ body .main .about {
   background-image: linear-gradient(200deg, #00cccc, #005252);
 }
 
-body .main .china-graph {
+body .main .about-img {
   float: right;
   margin-right: 4.5vw;
   background-image: linear-gradient(160deg, #00cccc, #003452);

@@ -30,9 +30,10 @@ body .footer .credit {
 }
 
 body .footer .webdev {
-  position: absolute;
-  right: 37vw;
-  text-align: justify;
+  position: relative;
+  -webkit-transform: translate(190%);
+          transform: translate(190%);
+  right: 0;
 }
 
 body .footer .contr {
