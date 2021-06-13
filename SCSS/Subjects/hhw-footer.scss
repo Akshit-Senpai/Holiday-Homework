@@ -24,9 +24,6 @@ body {
 			position: relative;
 			transform: translate(190%);
 			right: 0;
-			@media (hover: none) and (pointer: coarse) {
-				display: none;
-			}
 		}
 		.contr {
 			position: absolute;
@@ -43,5 +40,10 @@ body {
 		span {
 			margin-left: 7.8vw;
 		}
+	}
+}
+@media (hover: none) and (pointer: coarse) {
+	.webdev {
+		display: none;
 	}
 }

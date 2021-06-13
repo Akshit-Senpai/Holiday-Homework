@@ -36,12 +36,6 @@ body .footer .webdev {
   right: 0;
 }
 
-@media (hover: none) and (pointer: coarse) {
-  body .footer .webdev {
-    display: none;
-  }
-}
-
 body .footer .contr {
   position: absolute;
   right: 2vw;
@@ -59,5 +53,11 @@ body .footer .contr:before {
 
 body .footer span {
   margin-left: 7.8vw;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .webdev {
+    display: none;
+  }
 }
 /*# sourceMappingURL=hhw-footer.css.map */
