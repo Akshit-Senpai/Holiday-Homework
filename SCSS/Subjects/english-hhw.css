@@ -113,6 +113,8 @@ body .main .china {
   float: left;
   margin-left: 4.5vw;
   background-image: linear-gradient(200deg, #00cccc, #005252);
+  padding-top: 4.4vw;
+  padding-bottom: 4.4vw;
 }
 
 body .main .china-graph {
@@ -163,12 +165,32 @@ body .main .india-graph {
   margin-top: 3vw;
 }
 
+body .main .analysis {
+  float: left;
+  margin-left: 4.5vw;
+  background-image: linear-gradient(210deg, blueviolet, violet);
+  padding-bottom: 3.5vw;
+  padding-top: 3.5vw;
+}
+
+body .main .analysis h3 {
+  font-size: 2.5vw;
+  margin-bottom: 1vw;
+}
+
+body .main .anal-graph {
+  float: right;
+  margin-right: 4.5vw;
+  background-image: linear-gradient(210deg, #e278ed, #6f14c5);
+}
+
 body .main .conclusion {
   float: left;
   margin-left: 4.5vw;
   background-image: radial-gradient(at top right, #00c8ff, #006464);
-  padding-bottom: 3.5vw;
-  padding-top: 3.5vw;
+  line-height: 1.8vw;
+  padding-bottom: 3.4vw;
+  padding-top: 3.4vw;
 }
 
 body .main .conclusion h3 {
